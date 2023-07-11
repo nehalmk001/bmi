@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bebas+Neue&family=Black+Ops+One&family=Gasoek+One&family=Instrument+Serif:ital@0;1&family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,400;1,600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Londrina+Solid:wght@100&family=Martian+Mono:wght@200;300;500;600;700;800&family=Monoton&family=Oswald&family=Passion+One:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&family=Roboto+Condensed:ital,wght@0,300;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&family=Sigmar&family=Staatliches&family=Vina+Sans&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,500;1,100;1,400;1,500&display=swap');
+body{
+  background-image: url(./image/risen-wang-20jX9b35r_M-unsplash\ \(2\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+.bmi{
+    background: transparent;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Open Sans';
+    height: 500px;
+  }
+  .bmi h1{
+    font-family: 'Black Ops One', cursive;
+    color:#8685EF ;
+  }
+  
+  .bmi input{
+    display: block;
+    margin: 0 0 1em 0;
+    width: 100%;
+    height: auto;
+    outline: none;
+  }
+  
+  .bmi h1{
+    /* font-size: 62px; */
+    line-height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bmi h2{
+    text-align: center;
+  }
+  .bmi h4{
+    text-align: center;
+  }
+  
+  .bmi h3{
+    color: #ffa400;
+    font-size: 16px;
+    letter-spacing: 26px;
+    letter-spacing: 2px;
+  }
+  
+  .bmi .wrapper{
+    padding: 20px;
+  }
+  .option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .option label{
+    margin-right: 50px;
+    display: grid;
+    border: none;
+  }
+  .option label i{
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+  .option input[type="radio"]:checked + label {
+    color: rgb(44, 136, 25); /* Change the color to your desired value */
+  }
+
+  /* #radio1{
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+  } */
+  #result{
+    width: 100%;
+    height:20px;
+   font-size: 20px;
+   font-family: 'Alfa Slab One', cursive;
+  }
+  #message{
+    margin-top: 20px;
+    background-color: #ffa400;
+    border-radius: 5px;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  

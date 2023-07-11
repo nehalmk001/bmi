@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="bmi.css">
+    <title>BMI calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+      <section class="bmi">
+          <div class="wrapper">
+            <h1>BMI Calculator</h1>
+              <div class=option>
+  
+                <input type="radio" class="btn-check" name="options-outlined" id="male" autocomplete="off">
+                <label class="btn" for="male"><i class="fa-solid fa-person"></i>Male</label>
+                
+                <input type="radio" class="btn-check" name="options-outlined" id="female" autocomplete="off">
+                <label class="btn " for="female"><i class="fa-solid fa-person-dress"></i>Female</label>
+               
+              </div>
+              <h3>Age</h3>
+              <input class="bmiinput" id="age" type="number" value="20">
+  
+            <h3>Weight in kg</h3>
+            <input class="bmiinput" id="weight" type="number" value="70">
+            <h3>Height in cm</h3>
+            <input class="bmiinput" id="centimeters" type="number" value="185">
+  
+            <button type="button" class="btn btn-primary">Submit</button>
+                
+            <h2 id="result"></h2>
+            <h4 id="message"></h4>
+          </div>
+        </section>
+  
+        
+  
+
+    
+</body>
+<script src="bmi.js"></script>
+</html>
